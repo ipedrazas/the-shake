@@ -5,7 +5,7 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Antony_and_Cleopatra",
         "year": "1601-1607",
         "book_url": "http://shakespeare.mit.edu/cleopatra/full.html",
-        "thumbnail": "thumbs/cleopatra.jpg"
+        "thumbnail": "/images/cleopatra.jpg"
     },
     {
         "id": 2,
@@ -13,6 +13,6 @@
         "year": "1610-1611",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Tempest",
         "book_url": "http://shakespeare.mit.edu/tempest/full.html",
-        "thumbnail": "thumbs/tempest.jpg"
+        "thumbnail": "/images/tempest.jpg"
     }
 ]

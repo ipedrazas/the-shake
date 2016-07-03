@@ -42,6 +42,8 @@ func main() {
 	books = loadBooks()
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/books", booksHandler)
+	fs := http.FileServer(http.Dir("static"))
+	http.Handle("/static/", http.StripPrefix("/static/", fs))
 	http.ListenAndServe(":8080", nil)
 	os.Exit(0)
 }
